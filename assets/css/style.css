@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #bdb9b9; 
+    --secondary-color: #45504E;
+    --tertiary-color: #75645C;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+/* GLOBAL STYLING */
+body {
+    font-family: 'Lora', serif;
+   }
+   
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+   }
+   
+/* HEADER STYLING*/
+header {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    background-color: var(--primary-color);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 9999;
+  }
+
+header h1 {
+    background-color: var(--primary-color);
+    color: #E5BC8E;
+    padding-left: 20px;
+    padding-top: 5px;
+    text-align: left;
+    font-size: 36px;
+    font-weight: bolder;
+  }
+
+header a {
+    text-decoration: none;
+    color: #fff;
+  } 
+
+header nav {
+    margin: 7px 0;
+  }
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.8vw;
+    text-decoration: none;
+    color: var(--tertiary-color);
+  }
+
+  header nav ul li a:hover {
+      color: var(--secondary-color);
+  }
+
+ /* HERO STYLES START */ 
+
+ .hero img {
+    height: auto;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: block;
+  }
+
+.hero div {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: var(--tertiary-color);
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+.name h2 {
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    font-size: 28px;
+    opacity: 0.5;
+    border-width: 5px;
+    border: solid;
+    border-color: #FFF;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* END OF HERO STYLING */
